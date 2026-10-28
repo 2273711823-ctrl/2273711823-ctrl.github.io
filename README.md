@@ -28,6 +28,14 @@
 
 当前两种语言均已完成。新增学习文章时，还应添加课程入口，检查中英切换和笔记打开、关闭及返回行为。
 
+## Research update · 2026-10-28
+
+The existing research section now includes an updated Cygnus Bubble overview (`#cygnus-bubble`) and a dated progress entry (`#cygnus-update`). The English copy and Chinese counterpart describe hadronic muon-neutrino modeling with LHAASO spectra, HEALPix templates, and public IceCube responses. Current atmospheric-background study and future detectability assessment are explicitly marked as work in progress.
+
+One concise learning draft, “Atmospheric neutrinos: from flux to background” (`#note-atmospheric-neutrinos`), is linked from the update and the Learning section. It covers the current energy/zenith-angle study and distinguishes flux models from detector-level event predictions. Tool references point to the nuflux and daemonflux repositories; they are background resources, not publications by the site author.
+
+The update uses the existing language toggle, note reader, and responsive styles, with no build step or new dependencies. Keep both language versions aligned when revising the project status; do not turn expected counts or learning exercises into detection or publication claims.
+
 ## 说明
 
 科研工作标注为进行中，学习手记标注为可继续修订的初稿。示意星图与图形不是观测数据。源码包未包含 Sites 托管配置、Git 历史或访问凭据。

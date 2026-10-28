@@ -1,13 +1,17 @@
 'use strict';
 
-// Course notes are editorial drafts, grounded in topics discussed while learning.
+// Learning notes are editorial drafts, grounded in coursework and research reading.
 window.learningContent = {
   copy: {
     navLearning: 'Learning',
     learningHeading: 'Connecting the pieces.',
     learningSide: 'One question at a time.<br>Building bridges between intuition and derivation.',
-    learningIntro: 'A place for ideas from my courses that are worth returning to: the question, the physical picture, the equations, and the conditions that make them work.',
+    learningIntro: 'A place for ideas from coursework and research reading that are worth returning to: the question, the physical picture, the equations, and the conditions that make them work.',
     learningStatus: 'LEARNING NOTES · DRAFTS TO GROW WITH',
+    atmosphericCourse: 'Neutrino backgrounds',
+    atmosphericTitle: 'Atmospheric neutrinos: from flux to background',
+    atmosphericSummary: 'Exploring energy and zenith-angle dependence, and separating a flux model from a detector-level background prediction.',
+    atmosphericTag1: 'Energy & zenith angle', atmosphericTag2: 'Learning draft · 2026-10-28',
     quantumCourse: 'Quantum mechanics',
     quantumTitle: 'Can wells and barriers fit into the same picture?',
     quantumSummary: 'Start with one Schrödinger equation. Use local solutions, boundary conditions, and normalization to connect bound states, scattering, and tunneling.',
@@ -24,6 +28,23 @@ window.learningContent = {
     learningFoot: 'Conceptual drafts developed from our study topics, with room for personal derivations, diagrams, and revised understanding.'
   },
   notes: {
+    'atmospheric-neutrinos': {
+      section: 'learning',
+      zh: {
+        category: '学习手记 / 中微子背景 · 2026-10-28 · 初稿',
+        title: '大气中微子：从通量到背景',
+        lead: '在问天鹅座泡的信号能否被区分出来之前，先理解大气中微子通量随能量和天顶角怎样变化。',
+        body: `<h3>先读懂通量模型</h3><p>我正在学习使用 nuflux 和 daemonflux 查询大气中微子通量，比较固定天顶角下的能谱，以及固定能量下的角度依赖。需要留意模型的单位、角度定义，以及中微子和反中微子的约定。</p><h3>再连接探测器</h3><p>通量并不是记录到的事件数。背景事件预测还需要与所选样本一致的有效面积、观测时间和重建响应。当前学习是在为这一步做准备，尚未形成最终的背景事件预测或天鹅座泡显著性结论。</p>`,
+        source: '学习初稿 · 持续修订。工具参考：<a href="https://github.com/icecube/nuflux" target="_blank" rel="noopener noreferrer">nuflux ↗</a> · <a href="https://github.com/mceq-project/daemonflux" target="_blank" rel="noopener noreferrer">daemonflux ↗</a>'
+      },
+      en: {
+        category: 'LEARNING NOTES / NEUTRINO BACKGROUNDS · 2026-10-28 · DRAFT',
+        title: 'Atmospheric neutrinos: from flux to background',
+        lead: 'Before asking whether a Cygnus Bubble signal can be distinguished, I’m learning how the atmospheric-neutrino flux depends on energy and zenith angle.',
+        body: `<h3>Read the flux model first</h3><p>I’m learning to query atmospheric-neutrino fluxes with nuflux and daemonflux: comparing energy spectra at fixed zenith angles, then angular dependence at fixed energies. Units, angle definitions, and neutrino versus antineutrino conventions all need attention.</p><h3>Then connect it to a detector</h3><p>A flux is not a recorded event count. A background-event prediction also needs effective areas consistent with the selected sample, observing time, and a reconstruction response. This study is preparation for that step; it does not yet provide a final background-event prediction or a Cygnus Bubble significance result.</p>`,
+        source: 'Learning draft · subject to revision. Tool references: <a href="https://github.com/icecube/nuflux" target="_blank" rel="noopener noreferrer">nuflux ↗</a> · <a href="https://github.com/mceq-project/daemonflux" target="_blank" rel="noopener noreferrer">daemonflux ↗</a>'
+      }
+    },
     'quantum-boundaries': {
       section: 'learning',
       zh: {
